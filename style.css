@@ -1,0 +1,16 @@
+h1, h2, p, div {
+    padding: 5px;
+    margin:auto;
+    color:plum;
+    border-width: 5px;
+    border-style: solid;
+    border-color:coral;
+    
+}
+div {
+    padding: 5px;
+    margin:auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color:cadetblue
+}
