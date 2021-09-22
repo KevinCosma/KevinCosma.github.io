@@ -1,16 +1,35 @@
-h1, h2, p, div {
+
+h1, h2, p, span {
     padding: 5px;
     margin:auto;
-    color:plum;
+    color:black;
     border-width: 5px;
-    border-style: solid;
-    border-color:coral;
-    
+    display: grid;
+    place-content: center;
 }
-div {
+span {
     padding: 5px;
     margin:auto;
     border-width: 5px;
     border-style: solid;
-    border-color:cadetblue
+    border-color:darkslateblue
+}
+h4 {
+    width: 100%;
+}
+h3 {
+    display: grid;
+    place-content: center;
+}
+p {
+    padding: 5px;
+    margin:40px;
+    border-width: 5px;
+}
+.box {
+    background-image: url(img/computercat.jpeg);
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin: 100px;
+    background-color:wheat;
 }
