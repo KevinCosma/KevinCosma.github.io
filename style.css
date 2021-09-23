@@ -1,5 +1,5 @@
 
-h1, h2, p, span {
+h1, h2, p, h4, table{
     padding: 5px;
     margin:auto;
     color:black;
@@ -12,14 +12,10 @@ span {
     margin:auto;
     border-width: 5px;
     border-style: solid;
-    border-color:darkslateblue
+    border-color:midnightblue
 }
 h4 {
     width: 100%;
-}
-h3 {
-    display: grid;
-    place-content: center;
 }
 p {
     padding: 5px;
@@ -27,9 +23,13 @@ p {
     border-width: 5px;
 }
 .box {
-    background-image: url(img/computercat.jpeg);
+    background-image: url(img/computer.jpeg);
+    padding: 800px 100px;
+    margin: 50px;
     background-repeat: no-repeat;
-    padding: 100px;
-    margin: 100px;
-    background-color:wheat;
+    background-position:top;
+    background-color:skyblue;
+}
+table, th, tr {
+    border: 1px solid black;
 }
